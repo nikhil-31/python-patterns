@@ -1,5 +1,4 @@
 
-
 class Node:
 
     def __init__(self, data) -> None:
@@ -9,8 +8,10 @@ class Node:
 
 class LinkedList:
     
+    
     def __init__(self) -> None:
         self.head = None
+
 
     def add_node(self, data):
         
@@ -19,10 +20,7 @@ class LinkedList:
         self.head = new_node
 
 
-
 linked_list = LinkedList()
 linked_list.add_node(3)
 linked_list.add_node(5)
 linked_list.add_node(7)
-
-

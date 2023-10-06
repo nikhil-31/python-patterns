@@ -45,6 +45,9 @@ class LinkedList:
 
 
     def push(self, new_data):
+        """
+        Inserting at the beginning
+        """
         new_node = ListNode(new_data)
         new_node.next = self.head
         self.head = new_node
