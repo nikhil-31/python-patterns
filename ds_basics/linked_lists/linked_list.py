@@ -96,6 +96,17 @@ class LinkedList:
             print(data)
             temp = temp.next
 
+    def middle(self):
+        
+        slow = self.head
+        fast = self.head
+
+        while(fast and fast.next):
+            slow = slow.next
+            fast = fast.next.next
+        middle = slow.item
+        return middle
+
 
 llist = LinkedList()
 llist.insert_at_end(1)
