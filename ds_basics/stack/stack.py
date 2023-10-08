@@ -5,7 +5,7 @@ class Stack:
         self.stack = []
 
 
-    def check_empty(self):
+    def is_empty(self):
         return len(self.stack) == 0
 
 
@@ -14,9 +14,13 @@ class Stack:
 
 
     def pop(self):
-        if self.check_empty():
-            return
-        self.stack.pop()
+        if not self.is_empty():
+            self.stack.pop()
+
+
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
 
 
     def __str__(self) -> str:
