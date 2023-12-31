@@ -1,5 +1,4 @@
 
-
 class Node:
     
     def __init__(self, key) -> None:
@@ -8,7 +7,7 @@ class Node:
         self.val = key
 
 
-def  max_depth(node):
+def max_depth(node):
     if node is None:
         return 0
     else:
@@ -23,7 +22,6 @@ def  max_depth(node):
 
 
 root = Node(1)
-
 
 root.left = Node(2)
 root.right = Node(3)

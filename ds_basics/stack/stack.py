@@ -15,8 +15,7 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            self.stack.pop()
-
+            return self.stack.pop()
 
     def peek(self):
         if not self.is_empty():
@@ -39,4 +38,4 @@ stack.pop()
 stack.pop()
 stack.pop()
 
-print("Elements in the stack: " + str(stack))
+# print("Elements in the stack: " + str(stack))
