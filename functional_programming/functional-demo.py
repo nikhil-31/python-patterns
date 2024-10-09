@@ -112,4 +112,4 @@ def factorial(n):
 
 print(dir(__builtins__))
 
-sum(i * i for i in range(1000000000))
+# sum(i * i for i in range(1000000000))

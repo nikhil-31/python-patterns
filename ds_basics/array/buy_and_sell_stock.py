@@ -4,7 +4,6 @@ def buy_and_sell_stocks(nums):
     max_profit = 0.0
     min_price = float("inf")
 
-
     for num in nums:
         min_price = min(min_price, num)
         compare_profit = num - min_price

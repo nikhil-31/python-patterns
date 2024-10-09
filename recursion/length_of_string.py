@@ -9,7 +9,7 @@ def len_of_string(string):
 
 # Driver Code 
 testVariable = "Educative"
-print (len_of_string(testVariable)) 
+print(len_of_string(testVariable)) 
 
 
 

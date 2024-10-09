@@ -9,7 +9,7 @@ from requests.exceptions import HTTPError
 response = requests.get('https://api.github.com', timeout=5,
                         params={'q': 'requests+language:python'},
                         headers={'Accept': 'application/vnd.github.v3.text-match+json'})
-print(response.sttaus_code)
+print(response.status_code)
 
 for url in ['https://api.github.com', 'https://api.github.com/invalid']:
     try:
